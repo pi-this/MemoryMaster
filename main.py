@@ -10,7 +10,7 @@ Type = input("To Duel data scores type: 1 | To Play The Last Surviver, pass and 
 
 def savedata():
     global level, name
-    with open("/home/pi/Desktop/Programs/python/Mimory/data/"+name, 'wb') as fh:
+    with open("/data/"+name, 'wb') as fh:
        pickle.dump(level, fh)
 
 def QUIT():
@@ -24,56 +24,56 @@ namelist = ["Bob", "Luke", "Max", "Jack", "Rachael", "Cain", "Walt", "Hadi", "Sa
 levellist = ["2", "5", "10", "12", "15", "20", "25", "30", "35", "40", "45", "50", "55", "60", "65", "70", "75", "80", "85", "90", "95", "100"]
 
 def a():
-    pygame.mixer.music.load("/home/pi/Desktop/Programs/python/Mimory/sounds/The_Best_Thing_Ever.mp3") # a
+    pygame.mixer.music.load("/sounds/The_Best_Thing_Ever.mp3") # a
     pygame.mixer.music.play()
     wait(5)
     pygame.mixer.music.stop()
     
 def s():
-    pygame.mixer.music.load("/home/pi/Desktop/Programs/python/Mimory/sounds/softwarmp") # s
+    pygame.mixer.music.load("/sounds/softwarmp") # s
     pygame.mixer.music.play()
     wait(3)
     pygame.mixer.music.stop()
     
 
 def d():
-    pygame.mixer.music.load("/home/pi/Desktop/Programs/python/Mimory/sounds/Friends.mp3") # d
+    pygame.mixer.music.load("/sounds/Friends.mp3") # d
     pygame.mixer.music.play()
     wait(1)
     pygame.mixer.music.stop()
     
 def f():
-    pygame.mixer.music.load("/home/pi/Desktop/Programs/python/Mimory/sounds/Down") # f
+    pygame.mixer.music.load("/sounds/Down") # f
     pygame.mixer.music.play()
     wait(4)
     pygame.mixer.music.stop()
     
 def g():
-    pygame.mixer.music.load("/home/pi/Desktop/Programs/python/Mimory/sounds/AmbientExperiment") # g
+    pygame.mixer.music.load("/sounds/AmbientExperiment") # g
     pygame.mixer.music.play()
     wait(3)
     pygame.mixer.music.stop()
     
 def h():
-    pygame.mixer.music.load("/home/pi/Desktop/Programs/python/Mimory/sounds/Smoke") # h
+    pygame.mixer.music.load("/sounds/Smoke") # h
     pygame.mixer.music.play()
     wait(5)
     pygame.mixer.music.stop()
     
 def j():
-    pygame.mixer.music.load("/home/pi/Desktop/Programs/python/Mimory/sounds/POPHIGH") # j
+    pygame.mixer.music.load("/sounds/POPHIGH") # j
     pygame.mixer.music.play()
     wait(4)
     pygame.mixer.music.stop()
     
 def k():
-    pygame.mixer.music.load("/home/pi/Desktop/Programs/python/Mimory/sounds/Mixitup") # k
+    pygame.mixer.music.load("/sounds/Mixitup") # k
     pygame.mixer.music.play()
     wait(2)
     pygame.mixer.music.stop()
     
 def l():
-    pygame.mixer.music.load("/home/pi/Desktop/Programs/python/Mimory/sounds/EcoOUT.wav") # l
+    pygame.mixer.music.load("/sounds/EcoOUT.wav") # l
     pygame.mixer.music.play()
     wait(3)
     pygame.mixer.music.stop()
@@ -81,19 +81,19 @@ def l():
 h()
     
 def FRH():
-    pygame.mixer.music.load("/home/pi/Desktop/Programs/python/Mimory/sounds/snapToit.mp3") # ;
+    pygame.mixer.music.load("/sounds/snapToit.mp3") # ;
     pygame.mixer.music.play()
     wait(1)
     pygame.mixer.music.stop()
     
 def space():
-    pygame.mixer.music.load("/home/pi/Desktop/Programs/python/Mimory/sounds/Space") # ;
+    pygame.mixer.music.load("/sounds/Space") # ;
     pygame.mixer.music.play()
     wait(3)
     pygame.mixer.music.stop()
     
 def z():
-    pygame.mixer.music.load("/home/pi/Desktop/Programs/python/Mimory/sounds/Zplay") # k
+    pygame.mixer.music.load("/sounds/Zplay") # k
     pygame.mixer.music.play()
     wait(3)
     pygame.mixer.music.stop()
@@ -104,12 +104,12 @@ if Type == '1':
     level = 0
 
     try:
-        pickle_off = open ("/home/pi/Desktop/Programs/python/Mimory/data/"+name, "rb")
+        pickle_off = open ("/data/"+name, "rb")
         level = pickle.load(pickle_off)
         print(level)
     except:
         pass
-    path = '/home/pi/Desktop/Programs/python/Mimory/data'
+    path = '/data'
     files = os.listdir(path)
     # Iterating over all the files
     for file in files:
@@ -122,7 +122,7 @@ if Type == '1':
         print(f"{file}")
         duel = input("who do you want to duel? -> ")
         try:
-            pickle_off = open ("/home/pi/Desktop/Programs/python/Mimory/data/"+duel, "rb")
+            pickle_off = open ("/data/"+duel, "rb")
             emp = pickle.load(pickle_off)
             print(emp)
         except:
@@ -1733,7 +1733,7 @@ name = input("what is your name? -> ")
 level = 0
 
 try:
-    pickle_off = open ("/home/pi/Desktop/Programs/python/Mimory/data/"+name, "rb")
+    pickle_off = open ("/data/"+name, "rb")
     level = pickle.load(pickle_off)
     print("level: "+str(level))
 except:

@@ -1,1 +1,1 @@
-This is were all the data is stored.
+This is where all the data is stored.

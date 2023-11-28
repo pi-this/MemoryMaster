@@ -3,6 +3,20 @@ Level up in skill by remembering sounds to beat the Memory Master!
 <br>
 > Can you beat the Master?
 
+What's new in version 1.2.5?
+
+Many Bug fixes:
+1. sound files added
+2. code edited for sound files
+3. pygame will be installed if the user does not have it on his or her computer
+4. function calls were fixed so that there would be no more syntax errors with that
+5. unnecessary sound function call where it should not be removed from the spot in the game
+
+Added features:
+1. A MemoryMaster.exe file was added for running the game.
+2. The readme.md file was given installation instructions and a game description for the first time.
+
+
 ## Game Description
 
 The Memory Master is an exciting game that assigns different sounds to keyboard letters. During the game, if a sound is played, the player must input the corresponding key. But that's not all! The player must also remember the sequence of sounds played, making it a more advanced and enjoyable version of the classic game, Simon Says.

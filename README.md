@@ -31,10 +31,12 @@ To start the Memory Master game, press any keyboard button except 1 and 2. If yo
 
 ## How to Download and Install Memory Master
 
-1. Install git at [git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-2. type this into your terminal to download the game: `git clone https://github.com/pi-this/MemoryMaster.git`
-3. now type this in your terminal to open the game folder: `cd MemoryMaster`
-4. then in your game folder run the MemoryMaster.exe by simply typing MemoryMaster into your command prompt: `MemoryMaster`
+
+1. Install python at [python.org](https://www.python.org/downloads/)
+2. Install git at [git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+3. type this into your terminal to download the game: `git clone https://github.com/pi-this/MemoryMaster.git`
+4. now type this in your terminal to open the game folder: `cd MemoryMaster`
+5. then in your game folder run the MemoryMaster.exe by simply typing MemoryMaster into your command prompt: `MemoryMaster`
 
 You can also run Memory Master by running the MemoryMaster.exe file by opening your file explorer and locating your .exe file and running that file.
 You can also run Memory Master's python file by running `python main.py` in your game folder.

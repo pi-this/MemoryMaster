@@ -1,9 +1,9 @@
 import pickle
+import os
 try:
     import pygame
 except:
     os.system("pip install pygame")
-import os
 from random import choice
 from time import sleep as wait
 pygame.mixer.init()

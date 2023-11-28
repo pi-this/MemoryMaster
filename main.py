@@ -4,6 +4,7 @@ try:
     import pygame
 except:
     os.system("pip install pygame")
+    print("pygame installed")
 from random import choice
 from time import sleep as wait
 pygame.mixer.init()
@@ -13,7 +14,7 @@ Type = input("To Duel data scores type: 1 | To Play The Last Surviver, pass and 
 
 def savedata():
     global level, name
-    with open("/data/"+name, 'wb') as fh:
+    with open("data/"+name, 'wb') as fh:
        pickle.dump(level, fh)
 
 def QUIT():
@@ -27,76 +28,74 @@ namelist = ["Bob", "Luke", "Max", "Jack", "Rachael", "Cain", "Walt", "Hadi", "Sa
 levellist = ["2", "5", "10", "12", "15", "20", "25", "30", "35", "40", "45", "50", "55", "60", "65", "70", "75", "80", "85", "90", "95", "100"]
 
 def a():
-    pygame.mixer.music.load("/sounds/sound1.mp3") # a
+    pygame.mixer.music.load("sounds/sound1.mp3") # a
     pygame.mixer.music.play()
     wait(5)
     pygame.mixer.music.stop()
     
 def s():
-    pygame.mixer.music.load("/sounds/sound2.mp3") # s
+    pygame.mixer.music.load("sounds/sound2.mp3") # s
     pygame.mixer.music.play()
     wait(3)
     pygame.mixer.music.stop()
     
 
 def d():
-    pygame.mixer.music.load("/sounds/sound3.mp3") # d
+    pygame.mixer.music.load("sounds/sound3.mp3") # d
     pygame.mixer.music.play()
     wait(1)
     pygame.mixer.music.stop()
     
 def f():
-    pygame.mixer.music.load("/sounds/sound4.mp3") # f
+    pygame.mixer.music.load("sounds/sound4.mp3") # f
     pygame.mixer.music.play()
     wait(4)
     pygame.mixer.music.stop()
     
 def g():
-    pygame.mixer.music.load("/sounds/sound5.mp3") # g
+    pygame.mixer.music.load("sounds/sound5.mp3") # g
     pygame.mixer.music.play()
     wait(3)
     pygame.mixer.music.stop()
     
 def h():
-    pygame.mixer.music.load("/sounds/sound6.mp3") # h
+    pygame.mixer.music.load("sounds/sound6.mp3") # h
     pygame.mixer.music.play()
     wait(5)
     pygame.mixer.music.stop()
     
 def j():
-    pygame.mixer.music.load("/sounds/sound7.mp3") # j
+    pygame.mixer.music.load("sounds/sound7.mp3") # j
     pygame.mixer.music.play()
     wait(4)
     pygame.mixer.music.stop()
     
 def k():
-    pygame.mixer.music.load("/sounds/sound9.mp3") # k
+    pygame.mixer.music.load("sounds/sound9.mp3") # k
     pygame.mixer.music.play()
     wait(2)
     pygame.mixer.music.stop()
     
 def l():
-    pygame.mixer.music.load("/sounds/sound10.mp3") # l
+    pygame.mixer.music.load("sounds/sound10.mp3") # l
     pygame.mixer.music.play()
     wait(3)
     pygame.mixer.music.stop()
     
-h()
-    
 def FRH():
-    pygame.mixer.music.load("/sounds/sound11.mp3") # ;
+    pygame.mixer.music.load("sounds/sound11.mp3") # ;
     pygame.mixer.music.play()
     wait(1)
     pygame.mixer.music.stop()
     
 def space():
-    pygame.mixer.music.load("/sounds/sound12.mp3") # ;
+    pygame.mixer.music.load("sounds/sound12.mp3") # ;
     pygame.mixer.music.play()
     wait(3)
     pygame.mixer.music.stop()
     
 def z():
-    pygame.mixer.music.load("/sounds/sound13.mp3") # k
+    pygame.mixer.music.load("sounds/sound13.mp3") # k
     pygame.mixer.music.play()
     wait(3)
     pygame.mixer.music.stop()
@@ -107,12 +106,12 @@ if Type == '1':
     level = 0
 
     try:
-        pickle_off = open ("/data/"+name, "rb")
+        pickle_off = open ("data/"+name, "rb")
         level = pickle.load(pickle_off)
         print(level)
     except:
         pass
-    path = '/data'
+    path = 'data'
     files = os.listdir(path)
     # Iterating over all the files
     for file in files:
@@ -1736,7 +1735,7 @@ name = input("what is your name? -> ")
 level = 0
 
 try:
-    pickle_off = open ("/data/"+name, "rb")
+    pickle_off = open ("data/"+name, "rb")
     level = pickle.load(pickle_off)
     print("level: "+str(level))
 except:
@@ -3083,19 +3082,19 @@ elif level == 55:
 elif level == 60:
     l65()
 elif level == 65:
-    l70
+    l70()
 elif level == 70:
-    l75
+    l75()
 elif level == 75:
-    l80
+    l80()
 elif level == 80:
-    l85
+    l85()
 elif level == 85:
-    l90
+    l90()
 elif level == 90:
-    l95
+    l95()
 elif level == 95:
-    l100
+    l100()
 elif level == 100:
     print("you are The Memory Master!")
     quit()

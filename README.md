@@ -3,10 +3,9 @@ Level up in skill by remembering sounds to beat the Memory Master!
 <br>
 > Can you beat the Master?
 _________________________________
-| ### Game Description:
-|
-|
-| The Memory Master is an exciting game that assigns different sounds to keyboard letters. During the game, if a sound is played, the player must input the corresponding key. But that's not | all! The player must also remember the sequence of sounds played, making it a more advanced and enjoyable version of the classic game, Simon Says.
+## Game Description
+
+The Memory Master is an exciting game that assigns different sounds to keyboard letters. During the game, if a sound is played, the player must input the corresponding key. But that's not all! The player must also remember the sequence of sounds played, making it a more advanced and enjoyable version of the classic game, Simon Says.
 
 ### Game Modes:
 
@@ -30,7 +29,8 @@ To access the Last Survivor game mode in Memory Master, simply press 2 on your k
 
 To start the Memory Master game, press any keyboard button except 1 and 2. If you press enter without inputting any information, the game mode will default to single-player. Playing alone is the best way to achieve a higher rank/score. You can compete against imaginary characters and try to beat their rankings. The Memory Master is one of these characters and has the highest ranking/score. If you beat the Memory Master, you become the new Memory Master. Single-player mode allows you to level up and beat the Memory Master.
 
-
+______________________________________________
+## How to Download and Install Memory Master
 
 
 

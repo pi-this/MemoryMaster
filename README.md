@@ -2,7 +2,7 @@
 Level up in skill by remembering sounds to beat the Memory Master!
 <br>
 > Can you beat the Master?
->> scroll all the way down for installation instructions
+###### scroll all the way down for installation instructions
 ## What's new in version 1.2.5?
 
 Many Bug fixes:

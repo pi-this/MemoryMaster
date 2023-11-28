@@ -4,7 +4,7 @@ import os
 from random import choice
 from time import sleep as wait
 pygame.mixer.init()
-print("can you beat The Mimory Master?")
+print("can you beat The Memory Master?")
 wait(0.56)
 Type = input("To Duel data scores type: 1 | To Play The Last Surviver, pass and play type: 2 | To play alone type: anything else -> ")
 
@@ -20,60 +20,60 @@ def QUIT():
     exit()
     
     
-namelist = ["Bob", "Luke", "Max", "Jack", "Rachael", "Cain", "Walt", "Hadi", "Safara", "Tad", "Page", "Pam", "Kader", "Jacob", "Ja", "Baby", "Bambi", "Tom", "Tim", "Dave", "Drew", "The Mimory Master"]
+namelist = ["Bob", "Luke", "Max", "Jack", "Rachael", "Cain", "Walt", "Hadi", "Safara", "Tad", "Page", "Pam", "Kader", "Jacob", "Ja", "Baby", "Bambi", "Tom", "Tim", "Dave", "Drew", "The Memory Master"]
 levellist = ["2", "5", "10", "12", "15", "20", "25", "30", "35", "40", "45", "50", "55", "60", "65", "70", "75", "80", "85", "90", "95", "100"]
 
 def a():
-    pygame.mixer.music.load("/sounds/The_Best_Thing_Ever.mp3") # a
+    pygame.mixer.music.load("/sounds/sound1.mp3") # a
     pygame.mixer.music.play()
     wait(5)
     pygame.mixer.music.stop()
     
 def s():
-    pygame.mixer.music.load("/sounds/softwarmp") # s
+    pygame.mixer.music.load("/sounds/sound2.mp3") # s
     pygame.mixer.music.play()
     wait(3)
     pygame.mixer.music.stop()
     
 
 def d():
-    pygame.mixer.music.load("/sounds/Friends.mp3") # d
+    pygame.mixer.music.load("/sounds/sound3.mp3") # d
     pygame.mixer.music.play()
     wait(1)
     pygame.mixer.music.stop()
     
 def f():
-    pygame.mixer.music.load("/sounds/Down") # f
+    pygame.mixer.music.load("/sounds/sound4.mp3") # f
     pygame.mixer.music.play()
     wait(4)
     pygame.mixer.music.stop()
     
 def g():
-    pygame.mixer.music.load("/sounds/AmbientExperiment") # g
+    pygame.mixer.music.load("/sounds/sound5.mp3") # g
     pygame.mixer.music.play()
     wait(3)
     pygame.mixer.music.stop()
     
 def h():
-    pygame.mixer.music.load("/sounds/Smoke") # h
+    pygame.mixer.music.load("/sounds/sound6.mp3") # h
     pygame.mixer.music.play()
     wait(5)
     pygame.mixer.music.stop()
     
 def j():
-    pygame.mixer.music.load("/sounds/POPHIGH") # j
+    pygame.mixer.music.load("/sounds/sound7.mp3") # j
     pygame.mixer.music.play()
     wait(4)
     pygame.mixer.music.stop()
     
 def k():
-    pygame.mixer.music.load("/sounds/Mixitup") # k
+    pygame.mixer.music.load("/sounds/sound9.mp3") # k
     pygame.mixer.music.play()
     wait(2)
     pygame.mixer.music.stop()
     
 def l():
-    pygame.mixer.music.load("/sounds/EcoOUT.wav") # l
+    pygame.mixer.music.load("/sounds/sound10.mp3") # l
     pygame.mixer.music.play()
     wait(3)
     pygame.mixer.music.stop()
@@ -81,19 +81,19 @@ def l():
 h()
     
 def FRH():
-    pygame.mixer.music.load("/sounds/snapToit.mp3") # ;
+    pygame.mixer.music.load("/sounds/sound11.mp3") # ;
     pygame.mixer.music.play()
     wait(1)
     pygame.mixer.music.stop()
     
 def space():
-    pygame.mixer.music.load("/sounds/Space") # ;
+    pygame.mixer.music.load("/sounds/sound12.mp3") # ;
     pygame.mixer.music.play()
     wait(3)
     pygame.mixer.music.stop()
     
 def z():
-    pygame.mixer.music.load("/sounds/Zplay") # k
+    pygame.mixer.music.load("/sounds/sound13.mp3") # k
     pygame.mixer.music.play()
     wait(3)
     pygame.mixer.music.stop()
@@ -137,7 +137,7 @@ if Type == '1':
                 wait(5)
                 exit()
         if emp == namelist.pop():
-            print(name+", level: "+str(level)+" /VS/ "+duel+", The Mimory Master"+", level: "+emp)
+            print(name+", level: "+str(level)+" /VS/ "+duel+", The Memory Master"+", level: "+emp)
         else:
             print(name+", level: "+str(level)+" /VS/ "+duel+", level: "+str(emp))
             
@@ -1268,10 +1268,10 @@ if Type == '1':
             if an == "akfallsgh;ls kad  hdl":
                 if level <= 100:
                     level = 100
-                    print(name+", you beat The Mimory Master! ("+duel+")")
+                    print(name+", you beat The Memory Master! ("+duel+")")
             else:
                 print("you lost")
-                print("The Mimory Master beat you!")
+                print("The Memory Master beat you!")
                 QUIT()
                 
 elif Type == '2':
@@ -3094,5 +3094,5 @@ elif level == 90:
 elif level == 95:
     l100
 elif level == 100:
-    print("you are The Mimory Master!")
+    print("you are The Memory Master!")
     quit()

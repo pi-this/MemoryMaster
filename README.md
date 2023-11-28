@@ -31,3 +31,4 @@ To access the Last Survivor game mode in Memory Master, simply press 2 on your k
 To start the Memory Master game, press any keyboard button except 1 and 2. If you press enter without inputting any information, the game mode will default to single-player. Playing alone is the best way to achieve a higher rank/score. You can compete against imaginary characters and try to beat their rankings. The Memory Master is one of these characters and has the highest ranking/score. If you beat the Memory Master, you become the new Memory Master. Single-player mode allows you to level up and beat the Memory Master.
 
 </div>
+<div>Hello</div>

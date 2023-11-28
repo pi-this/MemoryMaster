@@ -31,6 +31,8 @@ To start the Memory Master game, press any keyboard button except 1 and 2. If yo
 
 ## How to Download and Install Memory Master
 
+If you are using Linux It might be helpful to update and upgrade your computer before install python or git. To do this type `sudo apt update` and `sudo apt upgrade`
+
 
 1. Install python at [python.org](https://www.python.org/downloads/) or on Linux use `sudo apt install python`
 2. Install git at [git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or on Linux use `sudo apt install git`

@@ -37,7 +37,7 @@ To start the Memory Master game, press any keyboard button except 1 and 2. If yo
 4. then in your game folder run the MemoryMaster.exe by simply typing MemoryMaster into your command prompt: `MemoryMaster`
 
 You can also run Memory Master by running the MemoryMaster.exe file by opening your file explorer and locating your .exe file and running that file.
-You can also run Memory Master's python file it self by running `python main.py` in your game folder.
+You can also run Memory Master's python file by running `python main.py` in your game folder.
 
 And that is how to run Memory Master on a Linux or Windows, play the game and look out for updates!
 

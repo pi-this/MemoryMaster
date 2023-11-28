@@ -33,6 +33,7 @@ To start the Memory Master game, press any keyboard button except 1 and 2. If yo
 
 1. Install git at [git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 2. type this into your terminal to download the game: `git clone https://github.com/pi-this/MemoryMaster.git`
+3. now type this in your terminal: `cd /MemoryMaster`
 
 
 

@@ -11,7 +11,7 @@ Many Bug fixes:
 2. code edited for sound files
 3. pygame will be installed if the user does not have it on his or her computer
 4. function calls were fixed so that there would be no more syntax errors with that
-5. mispelled words fixed and unnecessary sound function call where it should not be removed from the spot in the game
+5. misspelled words fixed and unnecessary sound function call where it should not be removed from the spot in the game
 
 Added features:
 1. A MemoryMaster.exe file was added for running the game.

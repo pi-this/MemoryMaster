@@ -10,7 +10,7 @@ from time import sleep as wait
 pygame.mixer.init()
 print("can you beat The Memory Master?")
 wait(0.56)
-Type = input("To Duel data scores type: 1 | To Play The Last Surviver, pass and play type: 2 | To play alone type: anything else -> ")
+Type = input("To Duel data scores type: 1 | To Play The Last Survivor type: 2 | To play single player type: anything else -> ")
 
 def savedata():
     global level, name
@@ -1278,7 +1278,7 @@ if Type == '1':
                 
 elif Type == '2':
     alive = True
-    print("The Last Surviver - who will survive?")
+    print("The Last Survivor - who will survive?")
     
     diff = input("type '1' for letters: asdf | type '2' for letters: asdfjkl; | type '3' for letters: asdfghjkl; {space} -> ")
     tellme = input("should all the sounds be played before each turn or just at the begining? | tell me every time (1) |  just at the begining (2) -> ")

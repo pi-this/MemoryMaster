@@ -1,0 +1,15 @@
+Bugs that need fixed:
+
+1.
+Traceback (most recent call last):
+  File "main.py", line 3060, in <module>
+    l5()
+  File "main.py", line 1833, in l5
+    l2()
+  File "main.py", line 1750, in l2
+    QUIT()
+  File "main.py", line 25, in QUIT
+    exit()
+    ^^^^
+NameError: name 'exit' is not defined
+[3504] Failed to execute script 'main' due to unhandled exception!
